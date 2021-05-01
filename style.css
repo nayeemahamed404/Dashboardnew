@@ -1,0 +1,45 @@
+
+button:hover{
+background-color: #D2F4EA;
+}
+
+.link-dark:hover{
+background-color: #D2F4EA;
+}
+.fa-laugh-wink{
+    color: rgb(131, 241, 98);
+    font-size: 30px;
+    
+}
+.sidenav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+.dropdown-toggle::after {
+    display:none;
+}
+.status-indicator{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 41px;
+    left: 50px;
+    z-index: 2;
+    
+}
+.vartical-border{
+    height: 40px;
+    width: 15px;
+    border-right: 1px solid rgb(95, 94, 94);
+}
+
+
+
+@media (min-width: 991.98px) {
+    .navbar{
+        margin-left: 180px;
+    }    
+    }
